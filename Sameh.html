@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>جاري التثبيت...</title>
+        <style>
+            body { background-color: #0a0a0f; color: white; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; padding: 20px; }
+            .loader { border: 4px solid rgba(255, 255, 255, 0.1); border-top: 4px solid #2563eb; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 20px; }
+            @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+            h2 { margin-bottom: 10px; font-size: 22px; }
+            .subtitle { color: #8b95a5; font-size: 16px; max-width: 320px; line-height: 1.6; }
+        </style>
+    </head>
+    <body>
+        <div class="loader"></div>
+        <h2>جاري التثبيت...</h2>
+        <p class="subtitle">ستظهر رسالة التثبيت بعد قليل، يرجى الانضمام لقناتنا لمتابعة أحدث التطبيقات والتحديثات.</p>
+        <script>
+            setTimeout(function() { window.location.href = "itms-services://?action=download-manifest&url=https://bot.appiraq.com/signed/install_e5e04d028c5b280cbfdb4d27914ad43c.plist"; }, 1000);
+            setTimeout(function() { window.location.href = "https://t.me/ipasoon"; }, 3500);
+        </script>
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"c8f3fd9c72e64bd3aa13fdd913de42bd","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+    </html>
